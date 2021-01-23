@@ -17,7 +17,6 @@ function App() {
       <Header/>
       <div className="app__itemsContainer">
         <Item
-          id="test"
           title="Lowest Cost Solar Panels in America"
           desc="Money-back guarantee"
           descLink=""
@@ -36,44 +35,44 @@ function App() {
           backgroundImg={ModelS}
           leftBtnText='CUSTOM ORDER'
           leftBtnLink="https://www.tesla.com/energy/design"
-          rightBtnText="LEARN MORE"
+          rightBtnText="EXISTING INVENTORY"
           rightBtnLink='https://www.tesla.com/inventory/new/ms'
           twoButtons="true"
           first
         />
         <Item
-          title="Model-3"
+          title="Model 3"
           desc="Order online for Touchless Delivery"
           descLink=""
           backgroundImg={Model3}
           leftBtnText='CUSTOM ORDER'
           leftBtnLink="https://www.tesla.com/energy/design"
-          rightBtnText="LEARN MORE"
-          rightBtnLink=''
+          rightBtnText="EXISTING INVENTORY"
+          rightBtnLink='https://www.tesla.com/inventory/new/m3'
           twoButtons="true"
           first
         />
         <Item
-          title="Model-X"
+          title="Model X"
           desc="Order online for Touchless Delivery"
           descLink=""
           backgroundImg={ModelX}
           leftBtnText='ORDER NOW'
           leftBtnLink="https://www.tesla.com/energy/design"
           rightBtnText="LEARN MORE"
-          rightBtnLink=''
+          rightBtnLink='https://www.tesla.com/inventory/new/mx'
           twoButtons="true"
           first
         />
         <Item
-          title="Model-Y"
+          title="Model Y"
           desc="Order online for Touchless Delivery"
           descLink=""
           backgroundImg={ModelY}
           leftBtnText='ORDER NOW'
           leftBtnLink="https://www.tesla.com/energy/design"
           rightBtnText="LEARN MORE"
-          rightBtnLink=''
+          rightBtnLink='https://www.tesla.com/modely'
           twoButtons="true"
           first
         />
@@ -85,7 +84,7 @@ function App() {
           leftBtnText='ORDER NOW'
           leftBtnLink="https://www.tesla.com/energy/design"
           rightBtnText="LEARN MORE"
-          rightBtnLink=''
+          rightBtnLink='https://www.tesla.com/solarroof'
           twoButtons="true"
           first
         />
@@ -94,10 +93,10 @@ function App() {
           desc="Money-back guarantee"
           descLink=""
           backgroundImg={Accessories}
-          leftBtnText='ORDER NOW'
-          leftBtnLink="https://www.tesla.com/energy/design"
+          leftBtnText='SHOP NOW'
+          leftBtnLink="https://www.tesla.com/shop"
           rightBtnText="LEARN MORE"
-          rightBtnLink=''
+          rightBtnLink='https://www.tesla.com/shop'
           twoButtons="true"
           first
         />
